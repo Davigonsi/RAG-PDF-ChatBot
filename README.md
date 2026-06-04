@@ -109,13 +109,11 @@ pip install -r requirements.txt
 Create a `.env` file in the project root (do **not** commit this file):
 
 ```
-OPENAI_API_KEY=sk-proj-...
-PINECONE_API_KEY=pcsk_...
-PINECONE_INDEX_NAME=ragpdfbot
-PINECONE_ENVIRONMENT=us-east-1
+OPENAI_API_KEY=
+PINECONE_API_KEY=
+PINECONE_INDEX_NAME=
+PINECONE_ENVIRONMENT=
 ```
-
-> Any extra keys in `.env` (e.g. `ANTHROPIC_API_KEY`) are safely ignored.
 
 ### 5. Create a Pinecone dense index
 
